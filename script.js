@@ -1,3 +1,8 @@
+
+
+
+/* Auto attempt
+
 const gridContainer = document.getElementById("gridContainer");
 const resetButton = document.getElementById("resetButton");
 
