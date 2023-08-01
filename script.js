@@ -5,8 +5,8 @@ window.addEventListener("load", setDefaultGrid);
 resetButton.addEventListener("click", changeSize);
 
 function setDefaultGrid() {
-  setGridSize(16);
-  fillGrid(16);
+  setGridSize(8);
+  fillGrid(8);
 }
 
 function setGridSize(size) {
@@ -34,8 +34,8 @@ function changeSize() {
 
   if (newSize !== null) {
     newSize = parseInt(newSize);
-    if (newSize < 1 || newSize > 64 || Number.isNaN(newSize)) {
-      alert("Enter a number from 1-64 range");
+    if (newSize < 1 || newSize > 100 || Number.isNaN(newSize)) {
+      alert("Enter a number from 1-100 range");
       changeSize();
     } else {
       clearGrid();

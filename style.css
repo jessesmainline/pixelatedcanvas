@@ -1,6 +1,6 @@
 :root {
-    --main-dark: #666;
-    --main-light: #ededed;
+    --main-dark: #000;
+    --main-light: #ffffff;
   }
   
   *,
@@ -65,7 +65,7 @@
     border: 1px solid var(--main-dark);
   }
   
-  .grid-element {
+  /*.grid-element {
     border: 1px solid var(--main-dark);
     background-color: var(--main-light);
   }
